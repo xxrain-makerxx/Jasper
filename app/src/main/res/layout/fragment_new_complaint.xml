@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+    <android.support.v7.widget.CardView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/nav_header_height"
+    android:layout_centerInParent="true"
+    >
+
+    <RelativeLayout
+        android:layout_width="320dp"
+        android:layout_height="560dp"
+        android:padding="24dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etv_complain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Title"
+            android:textColor="@color/darkText"
+            android:textSize="16dp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bt_register"
+            android:layout_below="@+id/etv_complain"
+            android:inputType="textMultiLine"
+            android:singleLine="false"
+            android:textAlignment="viewStart"
+            android:textSize="12dp"/>
+        <Button
+            android:id="@+id/bt_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:text="Register" />
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+
+</RelativeLayout>

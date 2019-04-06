@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.m.jasper.Login"
+    android:background="@color/lightAccent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_person_pin_black_24dp"
+        android:layout_above="@id/sign_in_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/card_view_padding"
+        android:background="@drawable/back_circle"
+        android:padding="@dimen/card_view_padding"/>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="@dimen/card_view_padding"/>
+
+</RelativeLayout>

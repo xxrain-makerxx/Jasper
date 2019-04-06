@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "97294971521",
+    "firebase_url": "https://jasper-6368d.firebaseio.com",
+    "project_id": "jasper-6368d",
+    "storage_bucket": "jasper-6368d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97294971521:android:a80982a370b0359e",
+        "android_client_info": {
+          "package_name": "com.m.jasper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97294971521-sij085jd0hvqrgs5rhictpuoiu66hekl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.m.jasper",
+            "certificate_hash": "f265591856b087dc8e0ea5432a5e2c7f5fab3760"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKaro-jwUly8Fu8nk_sSxj6pVIeYtdo7o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97294971521-36ct5j42eaekf96riqv13osu3930om1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
